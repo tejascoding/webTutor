@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>audio tag example</title>
+ </head>
+ <body>
+  <!-- Simple audio playback -->
+<audio src="E:\mp3 check\Sleep Away.mp3" autoplay>
+  Your browser does not support the <code>audio</code> element.
+</audio>
+
+
+<audio controls="controls">
+  Your browser does not support the <code>audio</code> element.
+  <source src="E:\mp3 check\Sleep Away.mp3" type="audio/wav">
+</audio>
+ </body>
+</html>

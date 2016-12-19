@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Image tag example</title>
+ </head>
+ <body>
+  <!-- Example 1:  Alternative text -->
+  <img src="mdn-logo-sm.png" alt="MDN">
+
+  <!-- Example 2: Image link -->
+  <a href="https://www.google.com">MDN<img src="mdn-logo-sm.png" alt="MDN"></a>
+  <!-- Example 3: Using the srcset attribute -->
+  <img src="1mdn-logo-sm.png" 
+      alt="MDN" 
+      srcset="mdn-logo-HD.png 2x">
+  
+  <!-- Example 4: Using the srcset and sizes attributes
+	<img src="J:\my class\html programs\img\43518.png" 
+      alt="Clock" 
+      srcset="J:\my class\html programs\img\43518.png 200w, J:\my class\html programs\img\index.jpg 400w"
+      sizes="(min-width: 600px) 200px, 50vw">
+
+
+  <!-- 200px wide, otherwise it will be 50vw wide (50% of the viewport width) -->
+ </body>
+</html>

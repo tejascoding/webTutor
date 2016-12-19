@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Anchor tag example</title>
+ </head>
+ <body>
+   <p id="top">This anchor Tag connecting with in page</p>
+   <a href="#top">Return to top</a>
+	<br>
+	<!-- anchor linking to external file -->
+	<a href="http://www.mozilla.com/">
+	External Link
+	</a>
+	<br>
+	<!-- Creating a clickable image -->
+	<a href="https://developer.mozilla.org/en-US/" target="_blank">
+	<img src="https://mdn.mozillademos.org/files/6851/mdn_logo.png" alt="MDN logo" />
+	</a>
+	<br>
+	<!-- Creating an email link -->
+	<a href="mailto:nowhere@mozilla.org">Send email to nowhere</a>
+	<br>
+	<!-- Creating a phone link -->
+	<a href="tel:+491570156">+49 157 0156</a>
+	
+	<!-- Using the download attribute to save a canvas as a PNG 
+	var link = document.createElement('a');
+	link.innerHTML = 'download image';
+
+	link.addEventListener('click', function(ev) {
+		link.href = canvas.toDataURL();
+		link.download = "mypainting.png";
+		}, false);
+
+	document.body.appendChild(link);-->
+	<a href="mailto:nowhere@mozilla.org?subject=Newsletter%20subscription%20request&body=Please%20subscribe%20me%20to%20your%20newsletter!%0A%0AFull%20name%3A%0A%0AWhere%20did%20you%20hear%20about%20us%3F">
+Subscribe to our newsletter
+</a>
+<a href="mailto:nowhere@mozilla.org">Send email to nowhere</a>
+
+Complete examples detail:
+
+<a href="mailto:nowhere@mozilla.org?cc=name2@rapidtables.com&bcc=name3@rapidtables.com
+&amp;subject=The%20subject%20of%20the%20email
+&amp;body=The%20body%20of%20the%20email">
+Send mail with cc, bcc, subject and body</a>
+ </body>
+</html>

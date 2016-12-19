@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Code Tag EXample</title>
+ </head>
+ <body>
+  <p>Regular text. <pre><code>
+  public class MethodWithArgument {
+  	public void add(int n ,int n1)
+   {
+	   System.out.println("Addition of 2 no = \t"+(n+n1));
+   }
+	public void add(int n)
+	   {
+		   System.out.println("Addition of 2 no = \t"+(n+n+10));
+	   }
+	public void add(int n ,double n1)
+	   {
+		   System.out.println("Addition of 2 no = \t"+(n+n1));
+	   }
+}
+</code> </pre><br>Regular text.</p>
+ </body>
+</html>

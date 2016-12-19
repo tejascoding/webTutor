@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+ </head>
+ <body>
+   <u>Today's Special</u>: Salmon<br />
+   <!--   <span style="text-decoration:underline;">Today's Special</span>: Salmon
+   <!-- Here <span> is used as the underlining is purely decorative and it is applied with CSS -->
+
+
+   <p><u>All</u> of that is explained in <u>Dive into Python</u></p>
+   <p><em>All</em> of that is explained in <i>Dive into Python</i></p>
+<!-- Here the "All" is marked as stressed, using <em>, while "Dive into Python" is marked as a name using <i> -->
+ </body>
+</html>

@@ -1,0 +1,27 @@
+
+<!-- Nested <ol> and <ul> -->
+
+<ol>
+  <li>first item</li>
+  <li>second item      <!-- Look, the closing </li> tag is not placed here! -->
+    <ul style="list-style:disc;">
+      <li >second item first subitem</li>
+      <li >second item second subitem</li>
+      <li >second item third subitem</li>
+    </ul>
+  </li>                <!-- Here is the closing </li> tag -->
+  <li>third item</li>
+</ol>
+<!-- Nested <ul> and <ol> -->
+
+<ul type="square">
+  <li>first item</li>
+  <li>second item      <!-- Look, the closing </li> tag is not placed here! -->
+    <ol type="A" >
+       <livalue=9>second item first subitem</li>
+      <li value=5>second item second subitem</li>
+      <li value=77>second item third subitem</li>
+    </ol>
+  </li>                <!-- Here is the closing </li> tag -->
+  <li>third item</li>
+</ul>

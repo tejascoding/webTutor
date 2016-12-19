@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Input detailed example</title>
+ </head>
+ <body>
+	<form>
+	  First name:<br>
+	  <input type="text" name="firstname"><br>
+	  Last name:<br>
+	  <input type="text" name="lastname">
+	  <hr>
+		
+		<!-- password & submit example-->
+		User name:<br>
+		<input type="text" name="username"><br>
+		User password:<br>
+		<input type="password" name="psw">
+		<input type="submit" value="Submit">
+		<hr>
+
+		<!-- reset example -->
+		  First name:<br>
+		  <input type="text" name="firstname" value="Mickey"><br>
+		  Last name:<br>
+		  <input type="text" name="lastname" value="Mouse"><br><br>
+		  <input type="submit" value="Submit">
+		  <input type="reset">
+		  <hr>
+
+		  <!-- ration example -->
+		  <input type="radio" name="gender" value="male" checked> Male<br>
+		  <input type="radio" name="gender" value="female"> Female<br>
+		  <input type="radio" name="gender" value="other"> Other
+			<hr>
+		  
+		  <!-- checkbox example -->
+			<input type="checkbox" name="vehicle1" value="Bike"> I have a bike<br>
+			<input type="checkbox" name="vehicle2" value="Car"> I have a car
+			<hr>
+			
+			<!-- button example -->
+			 <input type="button" onclick="alert('Hello World!')" value="Click Me!"><br>
+
+			 <!-- Input Type Number example -->
+			 Quantity (between 1 and 5):
+			<input type="number" name="quantity" min="1" max="5"><br>
+			<hr>
+			Quantity:
+			<input type="number" name="points" min="0" max="100" step="10" value="30"><br>
+			<hr>
+			
+			<!--date type example -->
+			 Birthday:
+				<input type="date" name="bday">
+			<hr>
+
+			Enter a date before 1980-01-01:
+			<input type="date" name="bday" max="1979-12-31"><br>
+			Enter a date after 2000-01-01:
+			<input type="date" name="bday" min="2000-01-02"><br>
+			<hr>
+
+			<!-- color type example -->
+			Select your favorite color:
+			<input type="color" name="favcolor"><br>
+			<hr>
+			
+			<!-- range type example -->
+			 <input type="range" name="points" min="0" max="10"><br>
+			<hr>
+
+			<!-- month type example -->
+			Birthday (month and year):
+			<input type="month" name="bdaymonth"><br>
+			<hr>
+
+			<!-- time type example -->
+			 Select a time:
+			 <input type="time" name="usr_time"><br>
+			 <hr>
+
+			 <!-- email example -->
+			  E-mail:
+			  <input type="email" name="email"><br>
+			  <hr>
+
+			  <!-- search example -->
+			  Search Google:
+			  <input type="search" name="googlesearch">
+				<hr><br>
+			
+			<!-- tel type example -->
+			<input type="tel" name="usrtel"><br>
+
+			<!-- url type example -->
+			 Add your homepage:
+			<input type="url" name="homepage">
+
+	</form> 
+ </body>
+</html>

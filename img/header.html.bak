@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+    <title>Header Tag Example</title>
+ </head>
+ <body>
+  <header>
+  <h1>Main Page Title</h1>
+  <img src="mdn-logo-sm.png" alt="MDN logo">
+</header>
+ </body>
+</html>

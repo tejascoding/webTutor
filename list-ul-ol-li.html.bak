@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Lists Example</title>
+  
+ </head>
+ <body>
+ <!-- Order List Example -->
+<ol>
+    <li>first item</li>
+    <li>second item</li>
+    <li>third item</li>
+</ol>
+
+<!-- Order List Example -->
+<ol type="I">
+    <li value="3">third item</li>
+    <li>fourth item</li>
+    <li>fifth item</li>
+</ol>
+
+<!-- Order list Example -->
+<ol start="7">
+  <li>first item</li>
+  <li>second item</li>
+  <li>third item</li>
+</ol>
+
+<!-- Unorder List Example -->
+<ul>
+    <li>first item</li>
+    <li>second item</li>
+    <li>third item</li>
+</ul>
+
+<!--Nesting lists-->
+
+<ol>
+  <li>first item</li>
+  <li>second item      <!-- Look, the closing </li> tag is not placed here! -->
+    <ol>
+      <li>second item first subitem</li>
+      <li>second item second subitem</li>
+      <li>second item third subitem</li>
+    </ol>
+  </li>                <!-- Here is the closing </li> tag -->
+  <li>third item</li>
+</ol> 
+
+<!-- Nested <ol> and <ul> -->
+
+<ol>
+  <li>first item</li>
+  <li>second item      <!-- Look, the closing </li> tag is not placed here! -->
+    <ul>
+      <li>second item first subitem</li>
+      <li>second item second subitem</li>
+      <li>second item third subitem</li>
+    </ul>
+  </li>                <!-- Here is the closing </li> tag -->
+  <li>third item</li>
+</ol>
+
+
+ </body>
+</html>
